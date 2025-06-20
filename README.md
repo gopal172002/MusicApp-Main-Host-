@@ -21,8 +21,11 @@ This is a music application built using React and Micro Frontend Architecture. T
 
 1. Clone repositories:
 ```
-# Main App (Host)
 git clone https://github.com/gopal172002/MusicApp-Main-Host-.git
+
+```
+
+```
 cd MusicApp-Main-Host
 ```
 
@@ -33,7 +36,6 @@ npm install
 
 3. Start application:
 ```bash
-cd MusicApp-Main-Host
 npm run dev
 ```
 
