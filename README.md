@@ -1,4 +1,4 @@
-# Music App - Micro Frontend Architecture
+# Music App - Main App
 
 This is a music application built using React and Micro Frontend Architecture. The application consists of two parts:
 1. Main App (Host) - Contains the authentication and container logic
@@ -19,37 +19,27 @@ This is a music application built using React and Micro Frontend Architecture. T
 
 ## Running Locally
 
-1. Clone both repositories:
-```bash
+1. Clone repositories:
+```
 # Main App (Host)
-git clone <main-app-repo-url>
-cd music-app-host
-
-# Music Library (Remote)
-git clone <music-library-repo-url>
-cd music-library
+git clone https://github.com/gopal172002/MusicApp-Main-Host-.git
+cd MusicApp-Main-Host
 ```
 
-2. Install dependencies for both applications:
+2. Install dependencies:
 ```bash
-# In both directories
 npm install
 ```
 
-3. Start both applications:
+3. Start application:
 ```bash
-# Start Music Library (Remote) first
-cd music-library
-npm run dev
-
-# In a new terminal, start Main App (Host)
-cd music-app-host
+cd MusicApp-Main-Host
 npm run dev
 ```
 
 The applications will be available at:
 - Main App: http://localhost:5173
-- Music Library: http://localhost:5001
+- Music Library: http://localhost:5174
 
 ## Demo Credentials
 
@@ -91,8 +81,8 @@ The application uses Module Federation to split the codebase into two parts:
 
 The application is deployed on Vercel:
 
-1. Main App: [Main App URL]
-2. Music Library: [Music Library URL]
+- **Main App (Host):** [https://music-app-main-host-djo6.vercel.app/](https://music-app-main-host-djo6.vercel.app/)
+- **Music Library (Remote):** [https://music-library-chi.vercel.app/](https://music-library-chi.vercel.app/)
 
 ### Deployment Process
 
